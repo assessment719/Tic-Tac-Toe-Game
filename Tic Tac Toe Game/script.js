@@ -76,6 +76,7 @@ boxes.forEach((box) => {
 const restartGame = () => {
     result.classList.add("hide");
     turnO = true;
+    count = 0;
     for (let box of boxes) {
         box.classList.remove("disabled");
         box.innerText = "";
