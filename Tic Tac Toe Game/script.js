@@ -31,8 +31,8 @@ const disableBoxes = () => {
     }
 };
 
-const showWinner = (pos1) => {
-    msg.innerText = `Congratulation! The Winner Is "${pos1}".`;
+const showWinner = (winner) => {
+    msg.innerText = `Congratulation! The Winner Is "${winner}".`;
     result.classList.remove("hide");
     disableBoxes();
     count = 0;
